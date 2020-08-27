@@ -9,9 +9,9 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.myapp.aws</groupId>
-    <artifactId>demo</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
-    <name>demo</name>
+    <artifactId>swiftref</artifactId>
+    <version>latest</version>
+    <name>latest</name>
     <description>Demo project for Spring Boot</description>
 
     <properties>
@@ -39,6 +39,11 @@
             <groupId>com.github.derjust</groupId>
             <artifactId>spring-data-dynamodb</artifactId>
             <version>5.1.0</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.commons</groupId>
+            <artifactId>commons-csv</artifactId>
+            <version>1.5</version>
         </dependency>
     </dependencies>
 
