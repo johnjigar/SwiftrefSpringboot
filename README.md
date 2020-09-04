@@ -10,4 +10,4 @@ docker build -t kakarla/swiftref:tagname .
 docker run -p 5000:5000 --env AWS_ACCESS_KEY_ID=id --env AWS_SECRET_ACCESS_KEY=secret kakarla/swiftref:tagname
 
 # Jenkins
-Test
+Test 1
