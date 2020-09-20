@@ -1,7 +1,7 @@
 # SwiftrefSpringboot
 
 # Build 
-mvn clean package
+mvn clean package -DskipTests
 
 # Docker deployment 
 docker build -t kakarla/swiftref:tagname .
